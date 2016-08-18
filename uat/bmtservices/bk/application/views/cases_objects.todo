@@ -1,0 +1,44 @@
+business _ permisssion: [except update rest of all actions are registered to superadmin]
+	business.create[** when a business is created, admin for the respective business is also created]
+	business.delete
+	business.list
+	business.status
+	business.update[**this permission is retained to admin of the business ?]
+
+	Superadmin permissions as access is configured using config file as they are not stored in database.......
+user_permission:
+	user.create
+	user.delete
+	user.list
+	user.activeorinactive
+	user.update [user connected thru this account will only be accessed to edit the personal profile ]
+
+departments_permission:
+	department.create
+	department.delete
+	department.update
+	deparment.list
+	department.status
+
+levels_permission:
+	level.create
+	level.update
+	level.delete
+	level.list
+	level.status
+
+Authorization library:
+	checkAuthorization($action,$roleid,$userid,$businessid)
+	
+
+
+
+$scope.showPopup = function() {
+    var alertPopup = $ionicPopup.alert({
+      title: 'Dont eat that!',
+      template: 'It might taste good'
+    });
+    alertPopup.then(function(res) {
+      console.log('Thank you for not eating my delicious ice cream cone');
+    });
+ };

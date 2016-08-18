@@ -1,0 +1,13 @@
+    <div class="container-fluid inner-page-body">
+         <div class="row">
+              <div class="col-md-3 left_menu">
+                   <ul>
+                   <a href="#"><li>Toll Center Details<i class="fa fa-angle-right pull-right"></i></li></a>
+                   <a href="#"><li>Semi Admin Details<i class="fa fa-angle-right pull-right"></i></li></a>
+                   <a href="#"><li>Toll Charges<i class="fa fa-angle-right pull-right"></i></li></a>
+                   
+                   <a href="#"><li>Toll Center Bank Details<i class="fa fa-angle-right pull-right"></i></li></a>
+                    <a href="#"><li>Issues <i class="fa fa-angle-right pull-right"></i></li></a>
+                   </ul> 
+                   
+              </div>

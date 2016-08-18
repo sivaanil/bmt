@@ -1,0 +1,221 @@
+
+SERVER = "http://localhost/mip/api/";
+
+
+----LOGIN---
+
+	username: mandatory, this can accept  valid mobile or email
+	password: mandatory
+	os: mandatory, 
+	useragent: mandatory 
+	ipaddress: mandatory 
+	sessionid: mandatory remove
+
+	LOGIN
+	uri: "login/userlogin";
+
+	REQUEST :
+	----------
+		{"request":{"username":"rakesh@gmail.com","password":"rakesh","os":"test os","useragent":"mozilla","ipaddress":"127.0.0.1","sessionid":"testthisissessionid"}}
+	RESPONSE :
+	-----------
+	{response: {id: "1",name: "rakesh",email: "rakesh@gmail.com",password: "rakesh",mobile: "8885141597",role: "1"}responseCode: 200,message: "Success",errors: ""}
+
+
+--- USER ---
+
+	name: mandatory, accepts alphabets and spaces
+	email: mandatory, valid email
+	mobile: mandatory, valid mobile(first digit of the number need to be greater than 5 and length need to be min and max : 10)	
+	palce_id: mandatory, accepts only natural number greater than zero
+	role: mandatory, accepts only natural number greater than zero
+	created_userid: mandatory (current logged in userid), accepts only natural number greater than zero
+	assigned_to: id of the user to which the current user is assignedto...
+	
+	1. CREATE 
+	user/createUser
+
+	REQUEST:
+	{"request":{"name":"rakesh","email":"ravi123@gmail.com","mobile":"8089141597","created_userid":"2","assigned_to":"2","user_id":"","image_data":"","image_file_type":"","department_id":"1","role_id":"2"},"userID":"2","roleID":"1","businessID":"1"}
+	
+	RESPONSE:
+	{response: "",responseCode: 200,message: "Registration successfull.",errors: ""}
+
+
+	2. UPDATE USER
+	user/updateUser
+
+	REQUEST:		
+		{"request":{"name":"rakesh RAVIPATI", "email":"abcd@gmail.com","mobile":"8000141597","user_id":"","department_id":"1","role_id":"2","assigned_to":"2","image_data":"", "image_file_type":""},"userID":"3","roleID":"2","businessID":"1"}
+
+	RESPONSE:
+		{response: "",responseCode: 200,message: "User updated successfully.",errors: "",sort: [0],pagination: [0]}
+
+	3. DELETE USER
+	user/deleteUser
+
+	REQUEST:
+		{"request":{"user_id":"2"},"userID":"3","roleID":"2","businessID":"1"}
+
+	RESPONSE:
+		{response: "",responseCode: 200,message: "User deleted successfully.",errors: ""}
+
+	4. LISTING USERS
+	user/allUsers
+	METHOD : GET
+
+	REQUEST:
+		{need to send the same object with empty values....}
+		{"request":{"user_id":"","name":"","email":"", "mobile":"","created_userid":"","region_id":"","role":"","status":"","assigned_to":""}}
+	RESPONSE:
+		{response:   0:{ id: "1"name: "rakesh"
+	email: "rakesh@gmail.com"
+	mobile: "8004341597"
+	role: "1"
+	region_id: "1"
+	status: "1"
+	assigned_to: "1"
+	created_date: "147483647"
+	}-
+	1:  {
+	id: "2"
+	name: "rakesh"
+	email: "rakeshwqrajeshravipati@gmail.com"
+	mobile: "8005048597"
+	role: "1"
+	region_id: "1"
+	status: "1"
+	assigned_to: "1"
+	created_date: "1425286994"
+	}-
+	2:  {
+	id: "3"
+	name: "rakesh"
+	email: "rakeshwqravipati@gmail.com"
+	mobile: "8005141597"
+	role: "1"
+	region_id: "1"
+	status: "1"
+	assigned_to: "1"
+	created_date: "1425290635"},responseCode: 200,message: "",errors: "",sort: [0],pagination: [0]}
+
+
+--- ROLE ----
+	
+	rolename : mandatory, unique, accepts alphabets, numbers spaces...
+	description: optional, 
+	created_userid : mandatory (current logged in userid), accepts only natural number greater than zero
+
+
+	1.CREATE 
+	role/createRole
+
+	REQUEST:
+		{"request":{"rolename":"testrole","description":"sample test data for role","created_userid":"1"}}
+
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Role created successfully.",errors: "",sort: [0],pagination: [0] }
+
+ 	2.UPDATE
+	 role/updateRole
+
+	 	REQUEST:
+	 		{"request":{"rolename":"testrole","description":"sample test data for role","created_userid":"1","role_id":"1"}}
+	 	RESPONSE:	
+	 		{response: "",responseCode: 200,message: "Role updated successfully.",errors: "",sort: [0],pagination: [0] }
+
+	 3.LIST ROLES
+	 role/allRoles
+	 METHOD: GET
+
+	 	REQUEST:
+	 		{"request":{"rolename":"","description":"","created_userid":"","role_id":""}}
+	 	RESPONSE:
+	 		{response: [1]0:  {id: "1",rolename: "testrole",description: "sample test data for role",created_date: "1425272582"},responseCode: 200,message: "",errors: "",sort: [0],pagination: [0] }
+
+	4.DELETE ROLE
+	role/deleteRole
+
+		REQUEST:
+			{"request":{"rolename":"","description":"","created_userid":"","role_id":"1"}}
+		RESPONSE:
+			{response: "",responseCode: 200,message: "Role deleted successfully.",errors: "",sort: [0],pagination: [0]}
+
+
+--- DEPARTMENTS ----
+	department_name[string]: required,unique, 
+	description[string]: optional, min_length[3],max_length[1500]
+	business_id[int]: required, must be matched with respective to the logged in users business id
+
+
+	1.CREATE
+	department/createDepartment
+
+	REQUEST:
+		{"request":{"department_name":"dep name one","description":"","department_id":""},"userID":"2","roleID":"1","businessID":"1"}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Department created successfully.",errors: "",sort: [0],pagination: [0]}
+
+
+--- LEVEL ---
+	
+	level_name : mandatory, unique, accepts alphabets, numbers spaces...
+	description: optional
+	created_userid: mandatory (current logged in userid), accepts only natural number greater than zero
+	points: mandatory, accepts only natural number greater than zero
+	badge_path: mandatory, filepath validation
+
+	
+	1.CREATE
+	level/createLevel
+
+	REQUEST:
+		{"request":{"level_name":"test level","description":" ","created_userid":"1","points":500,"badge_path":"file path to the image"}}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Level created successfully.",errors: "",sort: [0],pagination: [0]}	
+
+	2.UPDATE
+	level/updateLevel
+
+	REQUEST:
+		{"request":{"level_name":"test level","description":" ","created_userid":"1","points":500,"badge_path":"file path to the image","level_id":"1"}}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Level updated successfully.",errors: "",sort: [0],pagination: [0]}
+
+	3.LIST LEVELS
+	level/allLevels
+	METHOD: GET
+
+	REQUEST:
+		{"request":{"level_name":"test level","description":" ","created_userid":"","points":500,"badge_path":"","level_id":""}}
+	RESPONE:
+		{response: [1] 0:  {id: "1",level_name: "test level",description: " ",points: "500",created_date: "1425448983"}
+			responseCode: 200,message: "",errors: "",sort: [0],pagination: [0]}
+
+	4.DELETE LEVEL
+	level/deleteLevel
+
+	REQUEST:
+		{"request":{"level_name":"","description":"","created_userid":"","points":"","badge_path":"","level_id":"1"}}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Level deleted successfully.",errors: "",sort: [0],pagination: [0]}		
+
+--- BUSINESS ----
+
+	business/createBusiness
+
+	REQUEST:
+		{"request":{"business_name":"taya TECHNOLOGIES","name":"ravi","email":"raviTEST@gmail.com","address":"","mobile":"8800774455","image_data":"","image_file_type":""},"userID":"1"}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Business created successfully.",errors: "",sort: [0],pagination: [0]}
+
+	business/updateBusiness
+	
+		REQUEST:
+			{"request":{"business_name":"taya TECHNOLOGIES","name":"ravi","email":"raviTEST@gmail.com","address":"","mobile":"8800774455","image_data":"","image_file_type":"","business_id":"1"},"userID":"2"}
+		RESPONSE:
+			{response: "",responseCode: 200,message: "Business updated successfully.",errors: "",sort: [0],pagination: [0]}
+
+
+{"request":{"appointments_view": "1","department_id": "1","exclusive_listings" : "1","listings": "1","listings_value" : "1","posted_date" : "2015/04/19 12:57:40", 
+"propose_call1" : "1","propose_call2" : "1","prospect_call1":"0","prospect_call2" : "0"},"user_id": "11","roleID": "4","businessID":"1"}			

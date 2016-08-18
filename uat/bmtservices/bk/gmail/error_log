@@ -1,0 +1,586 @@
+
+[26-Nov-2015 10:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 705
+[26-Nov-2015 10:39:20 UTC] PHP Notice:  Undefined index: name in /home/tutorstand/public_html/gmailc/Imap.php on line 527
+[26-Nov-2015 10:39:20 UTC] PHP Notice:  Undefined index: size in /home/tutorstand/public_html/gmailc/Imap.php on line 528
+[26-Nov-2015 10:39:20 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:40:44 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:40:44 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:40:44 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:40:44 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:33 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:33 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:33 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:33 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:34 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:34 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:34 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:34 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:35 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:35 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:35 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:35 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:36 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:37 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:38 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:39 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:39 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:39 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:39 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:40 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:41 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:42 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:43 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:46 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:46 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:46 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:46 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:47 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:48 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:48 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:48 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:48 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:49 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:49 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:49 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:49 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:51 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:54 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:54 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:56 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:44:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:11 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:12 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:13 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:14 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:15 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:16 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:17 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:19 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:22 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:23 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:24 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:25 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:26 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:27 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:29 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:52 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:55 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:56 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:57 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:58 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:59 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:59 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:56:59 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:56:59 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:01 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:02 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:03 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:03 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:03 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:03 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:04 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:04 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:04 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:04 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:05 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:06 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:07 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:08 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:08 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 703
+[26-Nov-2015 10:57:08 UTC] PHP Notice:  Undefined offset: 0 in /home/tutorstand/public_html/gmailc/Imap.php on line 232
+[26-Nov-2015 10:57:08 UTC] PHP Notice:  Trying to get property of non-object in /home/tutorstand/public_html/gmailc/Imap.php on line 232

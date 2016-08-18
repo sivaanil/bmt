@@ -1,0 +1,126 @@
+
+SERVER = "http://localhost/mip/api/";
+
+
+	----LOGIN---
+
+	username: mandatory, this can accept  valid mobile or email
+	password: mandatory
+	os: mandatory, (not yet finalised) 
+	useragent: mandatory (not yet finalised)
+	ipaddress: mandatory (not yet finalised)
+	sessionid: mandatory(not yet finalised)
+
+	"login/userlogin";
+
+	REQUEST :
+	----------
+	{"request":{"username":"rakesh@gmail.com","password":"rakesh","os":"test os","useragent":"mozilla","ipaddress":"127.0.0.1","sessionid":"testthisissessionid"}}
+
+	RESPONSE :
+	-----------
+	{response: {id: "1",name: "rakesh",email: "rakesh@gmail.com",password: "rakesh",mobile: "8885141597",role: "1"}responseCode: 200,message: "Success",errors: ""}
+
+
+--- USER ---
+
+	name: mandatory, accepts alphabets and spaces
+	email: mandatory, valid email
+	mobile: mandatory, valid mobile(first digit of the number need to be greater than 5 and length need to be min and max : 10)	
+	palce_id: mandatory, accepts only natural number greater than zero
+	role: mandatory, accepts only natural number greater than zero
+	created_userid: mandatory (current logged in userid), accepts only natural number greater than zero
+	assigned_to:
+	user_id
+	
+	1. CREATE 
+	user/createUser
+
+	REQUEST:
+	{"request":{"name":"rakesh","email":"rakeshwqravipati@gmail.com","mobile":"8005141597","place_id":"1","role":"1","created_userid":"1","assigned_to":"1"}}
+
+	RESPONSE:
+	{response: "",responseCode: 200,message: "Registration successfull.",errors: ""}
+
+	2. UPDATE
+	user/
+
+
+
+
+--- ROLE ----
+	
+	rolename : mandatory, unique, accepts alphabets, numbers spaces...
+	description: optional, 
+	created_userid : mandatory (current logged in userid), accepts only natural number greater than zero,
+	role_id: accepts only natural numbers greater than zero,*mandatory when using updateRole, deleteRole apis*
+
+
+	1.CREATE 
+	role/createRole
+
+	REQUEST:
+		{"request":{"rolename":"testrole","description":"sample test data for role","created_userid":"1"}}
+
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Role created successfully.",errors: "",sort: [0],pagination: [0] }
+
+	2.UPDATE
+	 role/updateRole
+
+	 	REQUEST:
+	 		{"request":{"rolename":"testrole","description":"sample test data for role","created_userid":"1","role_id":"1"}}
+	 	RESPONSE:	
+	 		{response: "",responseCode: 200,message: "Role updated successfully.",errors: "",sort: [0],pagination: [0] }
+
+	 3.LIST ROLES
+	 role/allRoles
+
+	 	REQUEST:
+	 		{"request":{"rolename":"","description":"","created_userid":"","role_id":""}}
+	 	RESPONSE:
+	 		{response: [1]0:  {id: "1",rolename: "testrole",description: "sample test data for role",created_date: "1425272582"},responseCode: 200,message: "",errors: "",sort: [0],pagination: [0] }
+
+	4.DELETE ROLE
+	role/deleteRole
+
+		REQUEST:
+			{"request":{"rolename":"","description":"","created_userid":"","role_id":"1"}}
+		RESPONSE:
+			{response: "",responseCode: 200,message: "Role deleted successfully.",errors: "",sort: [0],pagination: [0]}
+
+
+
+--- REGION ---
+
+	place_name : mandatory, unique, accepts alphabets, numbers spaces...
+	description: optional, 
+	created_userid : mandatory (current logged in userid), accepts only natural number greater than zero
+
+	1.CREATE
+	region/createRegion
+
+	REQUEST:
+		{"request":{"region_name":"test region 2","description":"sample data2 test region","created_userid":"1","region_id":""}}
+
+	RESPONSE:
+		{ response: "",responseCode: 200,message: "Place created successfully.",errors: "",sort: [0],pagination: [0] }
+
+
+
+	--- LEVEL ---
+	
+	level_name : mandatory, unique, accepts alphabets, numbers spaces...
+	description: optional
+	created_userid: mandatory (current logged in userid), accepts only natural number greater than zero
+	points: mandatory, accepts only natural number greater than zero
+	badge_path: mandatory, filepath validation
+
+	
+	1.CREATE
+	level/createLevel
+
+	REQUEST:
+		{"request":{"level_name":"test level","description":" ","created_userid":"1","points":500,"badge_path":"file path to the image"}}
+	RESPONSE:
+		{response: "",responseCode: 200,message: "Level created successfully.",errors: "",sort: [0],pagination: [0]}	
