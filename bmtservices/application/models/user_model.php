@@ -1919,7 +1919,7 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                                 {
                                     $insertarr=array('tc_id'=>$tcid,'user_id'=>$uid,'msg_type'=>3,'date_sent'=>date('Y-m-d H:i:s'));
                                     $this->db->insert('push_status',$insertarr);
-                                    $msg="Toll Operators are not avialable.";
+                                    $msg="No toll operators available. Please pay manually.";
                                     //pushNote($deviceid,$msg);
                                     sendNotification($deviceid,$msg, $devicetype);
                                     //return $myarray=array('user_id'=>$uid);
@@ -2018,7 +2018,6 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
             //$date2=date('Y-m-d 23:59:59');
             $date2=date('Y-m-d 00:10:00');
             if(array_key_exists("major_id",$data) && array_key_exists("minor_id",$data)){
-
                 $tcid=$res[0]['tc_id'];
                 $beaconid=$res[0]['beacon_id'];
                 $fromwayres = $this->db->select('`tc_name`, `tc_location`,`from_way_beacon_id`')->where(array('tc_id'=>$tcid,'from_way_beacon_id'=>$beaconid))->get('toll_center')->result_array();
@@ -2080,7 +2079,7 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
             //echo $vehiclenum; exit;
             if($vehiclenum>0)
             {
-                // to check whether the transaction has been made before 10 min or not
+				// to check whether the transaction has been made before 10 min or not
                 $q=$this->db->query("select * from transactions where transaction_date > date_sub(now(), interval 2 minute) AND tc_id=".$tcid." AND user_id=".$uid." AND paid_status=1");
                 $c = $q->num_rows();
 
@@ -2103,7 +2102,7 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                 // To check whether the payment has made in same way if payment had not done in the previous step
 
                 //$ts="select transaction_id from transactions where `transaction_date` >= '".$lastonehour."' AND tc_id=".$tcid." AND user_id=".$uid." AND vehicle_id=".$vid." AND way_type=".$way_type." AND paid_status=1 ";
-                $ts="select transaction_id from transactions where `transaction_date` >= date_sub(now(), interval 2 minute) AND tc_id=".$tcid." AND user_id=".$uid." AND vehicle_id=".$vid." AND way_type=".$way_type." AND paid_status=1 ";
+                $ts="select transaction_id from transactions where `transaction_date` >= date_sub(now(), interval 1 minute) AND tc_id=".$tcid." AND user_id=".$uid." AND vehicle_id=".$vid." AND way_type=".$way_type." AND paid_status=1 ";
                 $tq=$this->db->query($ts);
                 $tc = $tq->num_rows();
                 //echo $tc; exit;
@@ -2113,8 +2112,6 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
 
                     $laneres = $this->db->select('*')->where(array('tc_id'=>$tcid,'way_type'=>$way_type,'status_flag'=>0,'user_selsect_status'=>1))->get('bmt_lanes')->result_array();
                    //echo $this->db->last_query(); exit;
-                    //~ echo count($laneres);
-					//~ exit;
                     if(count($laneres)>0)
                     {
                         $laneidarray=array();
@@ -2165,33 +2162,33 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                                 'way_type'=>$way_type,
                                 'transaction_date'=>date('Y-m-d H:i:s')
                             );
-                            $tsq=$this->db->query("select transaction_id from transactions where ts_id=".$tsid." AND tc_id=".$tcid." AND user_id=".$uid." AND type_id=".$typeid." AND vehicle_id=".$vid." AND lane_id=".$laneid." AND total_amount=".$total." AND paid_status=0") ;
-                            $tsc = $tsq->result_array();
+                            //~ $tsq=$this->db->query("select transaction_id from transactions where ts_id=".$tsid." AND tc_id=".$tcid." AND user_id=".$uid." AND type_id=".$typeid." AND vehicle_id=".$vid." AND lane_id=".$laneid." AND total_amount=".$total." AND paid_status=0") ;
+                            //~ $tsc = $tsq->result_array();
                             //echo $this->db->last_query(); exit;
-                            if(count($tsc)==0)
-                            {
+                            //~ if(count($tsc)==0)
+                            //~ {
 								$this->db->query('delete from push_status where user_id = '.$uid.' AND tc_id = '.$tcid.' AND msg_type=6');
                                 $this->db->insert('transactions',$insertarr);
                                 $id = $this->db->insert_id();
-							}else{
-								$q = $this->db->query("select * from transactions where user_id=".$uid." AND tc_id=".$tcid." AND user_id=".$uid." AND type_id=".$typeid." AND vehicle_id=".$vid." AND lane_id=".$laneid." AND total_amount=".$total." AND paid_status=0")->result_array();
-								$id = $q['0']['transaction_id'];
-							}
+							//~ }else{
+								//~ $q = $this->db->query("select * from transactions where user_id=".$uid." AND tc_id=".$tcid." AND user_id=".$uid." AND type_id=".$typeid." AND vehicle_id=".$vid." AND lane_id=".$laneid." AND total_amount=".$total." AND paid_status=0")->result_array();
+								//~ $id = $q['0']['transaction_id'];
+							//~ }
                         }
                         else
                         {
-                                $msg="There is no BMT lanes.";
+                                $msg="No toll operators available. Please pay manually.";
                                 return $msg;
 
                         }//end else (count($lanemapres)
-                        $url = 'http://bookmytoll.com/payment?total_amount=1.00&transaction_id='.$id.'&user_id='.$uid.'&lane_number=1&Authtoken='.$authToken;
+                        $url = 'http://bookmytoll.com/payment?total_amount='.$total.'&transaction_id='.$id.'&user_id='.$uid.'&lane_number=1&Authtoken='.$authToken;
                         return $returnarray=array('transaction_id'=>$id,'total_amount'=>$total,'lane_number'=>$laneno,
                                 'html_content'=>$url,'payment_flag'=>true,'msgcode'=>200);
                         
                     }//end  if(count($laneres)
                     else
                     {
-                        $msg="Toll Operators are not avialable.";
+                        $msg="No toll operators available. Please pay manually.";
                         return $msg;
                     }
                 }
@@ -2205,10 +2202,11 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                     if($tc)
                     {
                         $msg="You have already done transaction in this way. Try after 1 Minutes.";
-                        pushNote($deviceid,$msg);
+                        return $msg;
                     }
 
                 }//end else($tc==0)
+                $msg = "123";
                 return $returnarray=array('msgcode'=>MY_CODE,'msg'=>$msg);
             }//end if(vnum>0)
             else
@@ -2527,7 +2525,7 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                         {
                             $insertarr=array('tc_id'=>$tcid,'user_id'=>$uid,'msg_type'=>3,'date_sent'=>date('Y-m-d H:i:s'));
                             $this->db->insert('push_status',$insertarr);
-                            $msg="Toll Operators are not avialable.";
+                            $msg="No toll operators available. Please pay manually.";
                             pushNote($deviceid,$msg);
                             //return $myarray=array('user_id'=>$uid);
                         }
@@ -2731,7 +2729,7 @@ VALUES ('".$fname."','".$lname."','".$email."','".$img."','".$date."','".$authto
                 }//end  if(count($laneres)
                 else{
 
-                    $msg="Toll Operators are not avialable.";
+                    $msg="No toll operators available. Please pay manually.";
                     return $myarray=array('inner'=>'','msg'=>$msg);
                 }//end else (count($laneres)
             }  //end if($tc==0)

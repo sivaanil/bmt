@@ -833,9 +833,9 @@ VALUES ('" . json_encode($_POST) . "')";
                 $CI->db->join('toll_center', 'beacons.tc_id = toll_center.tc_id');
                 $CI->db->where('beacons.major_id', $_POST['major_id']);
                 $CI->db->where('beacons.minor_id', $_POST['minor_id']);
-                $CI->db->where('toll_center.status_flag', 0);
+                //$CI->db->where('toll_center.status_flag', 0);
                 $query = $CI->db->get()->result_array();
-                if(count($query) == 0){
+                if(count($query) > 0 && $query[0]['status_flag']==1){
                     /* -------------- Helpful for debugging purpose-------------------- */
                     $sql1 = "INSERT INTO `response_log`(`response`) 
 					VALUES ('Toll center is inactive')";
@@ -847,28 +847,59 @@ VALUES ('" . json_encode($_POST) . "')";
 //                echo $query[0]['toll_type_id']; exit;
                 // 		Functionality for highway
                 if ($query[0]['toll_type_id'] == 1) {
-                    //exit("dfdf");
-                    $data = $this->user_model->beacon_method($_POST, $this->login_user_id);
-                    //~ echo '<pre>';
-                    //~ print_r($data); exit;
-                    if (!empty($data)) {
-                        if ($data == "Toll Operators are not avialable.") {
-                            $this->rest->response(responseObject(MY_CODE, '', $data, success, ''), SUCCESS_CODE);
-                            return;
-                        }
+                    $vid = $_POST['vehicle_id'];
+                    $tcid = $query[0]['tc_id'];
+                    
+                    $checkIsUserAlreadyDetected = "select * from transactions where `transaction_date` > date_sub(now(), interval 1 minute) AND tc_id=" . $tcid . " AND user_id=" . $this->login_user_id . " AND vehicle_id=" . $vid . " AND paid_status=0";
+                    $tempCheck = $this->db->query($checkIsUserAlreadyDetected);
+                 //echo $this->db->last_query(); exit;
+					$res = $tempCheck->num_rows();
+					if ($res >= 1) {
+						 /* -------------- Helpful for debugging purpose ends-------------------- */
+                           $sql1 = "INSERT INTO `response_log`(`response`) 
+					VALUES ('Already detected by this toll. It will take 20 min to detect again for the same toll.')";
+                    $result1 = $this->db->query($sql1); 
                         /* -------------- Helpful for debugging purpose-------------------- */
-                        $sql1 = "INSERT INTO `response_log`(`response`) 
-					VALUES ('" . json_encode($data) . "')";
-                        $result1 = $this->db->query($sql1);
-                        /* -------------- Helpful for debugging purpose ends-------------------- */
-                        $data['road_type'] = "NH";
-                        $data['detected_by'] = "Beacon";
-                        $this->rest->response(responseObject(SUCCESS_CODE, '', $data, success, 'Your Transaction Amount'), SUCCESS_CODE);
-                        return;
-                    } else {
-                        $this->rest->response(responseObject(UNAUTHORIZED_CODE, '', '', fail, UNAUTHORIZED), UNAUTHORIZED_CODE);
-                        return;
-                    }
+                        $this->rest->response(responseObject(CONFLICT_CODE, '', '', nocontent, 'Already detected by this toll. It will take 20 min to detect again for the same toll.'), CONFLICT_CODE);
+						return;
+					}else{
+						 $data = $this->user_model->beacon_method($_POST, $this->login_user_id);
+						//~ echo '<pre>';
+						//~ print_r($data); exit;
+						if($data == "You have already done transaction in this way. Try after 1 Minutes."){
+							$this->rest->response(responseObject(MY_CODE, '', '', '', 'You have already done transaction in this way. Try after 1 Minutes.'), CONFLICT_CODE);
+						}
+						if($data['msgcode'] == "677" && $data['msg']=="123"){
+						$this->rest->response(responseObject(CONFLICT_CODE, '', '', nocontent, 'Transaction done properly'), CONFLICT_CODE);
+						}
+						if (!empty($data)) {
+							if ($data == "No toll operators available. Please pay manually.") {
+								 /* -------------- Helpful for debugging purpose-------------------- */
+							$sql1 = "INSERT INTO `response_log`(`response`) 
+						VALUES ('No toll operators available. Please pay manually.')";
+							$result1 = $this->db->query($sql1);
+							/* -------------- Helpful for debugging purpose ends-------------------- */
+								$this->rest->response(responseObject(MY_CODE, '', '', '', 'No toll operators available. Please pay manually.'), CONFLICT_CODE);
+								return;
+							}
+							/* -------------- Helpful for debugging purpose-------------------- */
+							$sql1 = "INSERT INTO `response_log`(`response`) 
+						VALUES ('" . json_encode($data) . "')";
+							$result1 = $this->db->query($sql1);
+							/* -------------- Helpful for debugging purpose ends-------------------- */
+							$data['road_type'] = "NH";
+							$data['detected_by'] = "Beacon";
+							$data['default_vehicle'] = "";
+							$data['msg_code'] = "123";
+							$this->rest->response(responseObject(SUCCESS_CODE, '', $data, success, ''), SUCCESS_CODE);
+							return;
+						} else {
+							$this->rest->response(responseObject(UNAUTHORIZED_CODE, '', '', fail, UNAUTHORIZED), UNAUTHORIZED_CODE);
+							return;
+						}
+					}
+                            
+                   
                 }
                 // 		Functionality for ringroad
                 elseif ($query[0]['toll_type_id'] == 2) {
@@ -905,9 +936,8 @@ VALUES ('" . json_encode($_POST) . "')";
                     $query1 = $this->db->get()->result_array();
                     $tcid = $query1['0']['tc_id'];
                     $tstaffDetails = $this->db->query("select * from bmt_lane_mapping where tc_id=" . $tcid)->result_array();
-                    $userLogDetails = $this->db->query("select * from ringroad where status=1 AND user_id=".$this->login_user_id)->result_array();
-                    if ((count($userLogDetails) == 0 && $query1['0']['entry_type'] == "IN") || (isset($tstaffDetails['0']['ts_id']) && $tstaffDetails['0']['ts_id'] != '')) {
-                        $tsid = "9999";
+                    if (isset($tstaffDetails['0']['ts_id']) && $tstaffDetails['0']['ts_id'] != '') {
+                        $tsid = $tstaffDetails['0']['ts_id'];
                     } else {
                         $tsid = '';
                     }
@@ -1002,7 +1032,7 @@ VALUES ('" . json_encode($_POST) . "')";
                                 return;
                             }
 
-echo "+"; exit;
+
                             $lanedetails = $this->db->query("select * from bmt_lane_mapping blm join bmt_lanes bl on blm.lane_id = bl.lane_id where blm.way_type =".$wayType."  AND blm.tc_id=" . $query['0']['tc_id'])->result_array();
                            // echo $this->db->last_query(); exit;
                             if(count($lanedetails)>0){
@@ -1025,6 +1055,7 @@ echo "+"; exit;
 
                             $data['html_content'] = "http://bookmytoll.com/payment?total_amount=" . $amount . "&transaction_id=" . $order_id . "&user_id=" . $this->login_user_id . "&Authtoken=" . $authToken . "&lane_number=" . $lanenos;
                             $data['detected_by'] = "Beacon";
+                            
                             $userVehicleNo = $this->db->query("select * from vehicles v join vehicle_model vm on v.model_id = vm.model_id where v.vehicle_id=" . $_POST['vehicle_id'])->result_array();
                             if (count($userVehicleNo)) {
                                 $data['default_vehicle'] = $userVehicleNo['0']['vehicle_no'];
@@ -1082,7 +1113,7 @@ echo "+"; exit;
                 $_POST['toll_id'] = $query['0']['tc_id'];
                 $_POST['major_id'] = $query['0']['major_id'];
                 $_POST['minor_id'] = $query['0']['minor_id'];
-                if(count($query) == 0){
+                if(count($query) > 0 && $query[0]['status_flag']==1){
                     /* -------------- Helpful for debugging purpose-------------------- */
                     $sql1 = "INSERT INTO `response_log`(`response`) 
 					VALUES ('Toll center is inactive')";
@@ -1092,21 +1123,77 @@ echo "+"; exit;
                     return;
                 }
                 if ($query[0]['toll_type_id'] == 1) {
-                    $isUserDetectedBybeacon = $this->db->query("select * from transactions where tc_id=" . $_POST['toll_id'] . " AND user_id=" . $this->login_user_id . " AND paid_status = 0 AND passing_status = 0")->result_array();
-                    if (count($isUserDetectedBybeacon) > 0) {
-                        return $this->rest->response(responseObject(CONFLICT_CODE, '', '', '', 'User already detected by beacon'), CONFLICT_CODE);
-                    }
-                    $data = $this->user_model->beacon_method($_POST, $this->login_user_id);
-                    $data['road_type'] = "NH";
-                    $data['detected_by'] = "Beacon";
-
-                    if (!empty($data)) {
-                        $this->rest->response(responseObject(SUCCESS_CODE, '', $data, success, 'Your Transaction Amount'), SUCCESS_CODE);
-                        return;
-                    } else {
-                        $this->rest->response(responseObject(UNAUTHORIZED_CODE, '', '', fail, UNAUTHORIZED), UNAUTHORIZED_CODE);
-                        return;
-                    }
+                    $vid = $_POST['vehicle_id'];
+                    $tcid = $query[0]['tc_id'];
+                    
+                    $checkIsUserAlreadyDetected = "select * from transactions where `transaction_date` > date_sub(now(), interval 1 minute) AND tc_id=" . $tcid . " AND user_id=" . $this->login_user_id . " AND vehicle_id=" . $vid . " AND paid_status=0";
+                    $tempCheck = $this->db->query($checkIsUserAlreadyDetected);
+                    //echo $this->db->last_query(); exit;
+					$res = $tempCheck->num_rows();
+					//echo $res; exit;
+					if ($res >= 1) {
+						 /* -------------- Helpful for debugging purpose ends-------------------- */
+                           $sql1 = "INSERT INTO `response_log`(`response`) 
+					VALUES ('Already detected by this toll. It will take 20 min to detect again for the same toll.')";
+                    $result1 = $this->db->query($sql1); 
+                        /* -------------- Helpful for debugging purpose-------------------- */
+                        $this->rest->response(responseObject(CONFLICT_CODE, '', '', nocontent, 'Already detected by this toll. It will take 20 min to detect again for the same toll.'), CONFLICT_CODE);
+						return;
+					}else{
+						         
+						$data = $this->user_model->beacon_method($_POST, $this->login_user_id);
+						//~ echo "<pre>";
+						//~ print_r($data);
+						//~ exit;
+						if($data == "You have already done transaction in this way. Try after 1 Minutes."){
+							/* -------------- Helpful for debugging purpose ends-------------------- */
+                           $sql1 = "INSERT INTO `response_log`(`response`) 
+					VALUES ('You have already done transaction in this way. Try after 1 Minutes.')";
+                    $result1 = $this->db->query($sql1); 
+                        /* -------------- Helpful for debugging purpose-------------------- */
+							$this->rest->response(responseObject(MY_CODE, '', '', '', 'You have already done transaction in this way. Try after 1 Minutes.'), CONFLICT_CODE);
+						}
+						if($data['msgcode'] == "677" && $data['msg']=="123"){
+							/* -------------- Helpful for debugging purpose ends-------------------- */
+                           $sql1 = "INSERT INTO `response_log`(`response`) 
+					VALUES ('Transaction done properly')";
+                    $result1 = $this->db->query($sql1); 
+                        /* -------------- Helpful for debugging purpose-------------------- */
+						$this->rest->response(responseObject(CONFLICT_CODE, '', '', nocontent, 'Transaction done properly'), CONFLICT_CODE);
+						}
+						
+						if($data == "No toll operators available. Please pay manually."){
+							 /* -------------- Helpful for debugging purpose-------------------- */
+						$sql1 = "INSERT INTO `response_log`(`response`) 
+						VALUES ('No toll operators available. Please pay manually.')";
+						$result1 = $this->db->query($sql1);
+						/* -------------- Helpful for debugging purpose ends-------------------- */
+							$this->rest->response(responseObject(MY_CODE, '', '', '', 'No toll operators available. Please pay manually.'), CONFLICT_CODE);
+							return;
+						}
+						if (isset($data['total_amount']) && $data['total_amount'] > 0) {
+							$data['detected_by'] = "Geofence";
+							$data['road_type'] = "NH";
+							$data['default_vehicle'] = "";
+							$data['msgcode'] = "123";
+							 /* -------------- Helpful for debugging purpose-------------------- */
+						$sql1 = "INSERT INTO `response_log`(`response`) 
+						VALUES ('".json_encode($data)."')";
+						$result1 = $this->db->query($sql1);
+						/* -------------- Helpful for debugging purpose ends-------------------- */
+							$this->rest->response(responseObject(SUCCESS_CODE, '', $data, success, ''), SUCCESS_CODE);
+							return;
+						}
+						if (!empty($data)) {
+							$this->rest->response(responseObject(SUCCESS_CODE, '', $data, success, 'Your Transaction Amount'), SUCCESS_CODE);
+							return;
+						} else {
+							$this->rest->response(responseObject(UNAUTHORIZED_CODE, '', '', fail, UNAUTHORIZED), UNAUTHORIZED_CODE);
+							return;
+						}
+					}
+					
+                   
                 } elseif ($query[0]['toll_type_id'] == 2) {
                     //exit("sdsad");
                     $vid2 = $_POST['vehicle_id'];
@@ -1122,11 +1209,11 @@ echo "+"; exit;
 
                     $oldExitedId = $tq3['0']['tc_id'];
                     if ($oldExitedId == $tcid) {
-                        $ts2 = "select transaction_id from transactions where `transaction_date` >= date_sub(now(), interval 2 minute) AND `transaction_date` < now() AND tc_id=" . $tcid . " AND user_id=" . $this->login_user_id . " AND vehicle_id=" . $vid2 . " AND paid_status=1";
+                        $ts2 = "select transaction_id from transactions where `transaction_date` >= date_sub(now(), interval 1 minute) AND `transaction_date` < now() AND tc_id=" . $tcid . " AND user_id=" . $this->login_user_id . " AND vehicle_id=" . $vid2 . " AND paid_status=1";
                         $tq2 = $this->db->query($ts2);
                         $tc2 = $tq2->num_rows();
                         if ($tc2 == 1) {
-                            $this->rest->response(responseObject(MY_CODE, '', '', '', 'You have already done transaction in this way. Try after 2 Minutes.'), CONFLICT_CODE);
+                            $this->rest->response(responseObject(MY_CODE, '', '', '', 'You have already done transaction in this way. Try after 1 Minute.'), CONFLICT_CODE);
                         }
                     }
 
